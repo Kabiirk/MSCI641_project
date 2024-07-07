@@ -2,7 +2,7 @@
 SENTIMENT ANALYSIS OF IMBD Movie REVIEWS USING LTSM (Long Short-Term Memory) Neural Networks  
 
 1. **MEMBER 1**
-   - **Name:** Kabir Krishna
+   - **Name:** Kabiir Krishna
    - **Email:** k7krishn@uwaterloo.ca
    - **WatIAM:** k7krishn
    - **Student Number:** 21106092
