@@ -9,8 +9,8 @@ SENTIMENT ANALYSIS OF IMBD Movie REVIEWS USING LTSM (Long Short-Term Memory) Neu
 
 2. **MEMBER 2**
    - **Name:** Akshat Baheti
-   - **Email:** abahieti@uwaterloo.ca
-   - **WatIAM:** abahieti
+   - **Email:** abaheti@uwaterloo.ca
+   - **WatIAM:** abaheti
    - **Student Number:** 21100660
 
 ## About the Project
