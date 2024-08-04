@@ -102,9 +102,9 @@ Project Root/
     ```
 #### Training the DistilBERT & LSTM Model
 1. `01.2-Training_DistilBERT.ipynb`: Notebooko for Training DistilBERT model, a strong classifier.
-2. `02-msci641_project.ipynb :` Training Script for the LSTM model. Exports the model for future usage too.
-3. `load_model_score.py :` Contains LSTM definintion (Helps with loading) & Function to score using a pre-loaded model.
-4. `04-dashboard.py :` Contains main Logic for dashboard webpage displayed.
+2. `02-msci641_project.ipynb`: Training Script for the LSTM model. Exports the model for future usage too.
+3. `load_model_score.py`: Contains LSTM definintion (Helps with loading) & Function to score using a pre-loaded model.
+4. `04-dashboard.py`: Contains main Logic for dashboard webpage displayed.
 
 #### Augmenting data wth scores from VADER and DistilBERT:
 1. `03-sentiment_finetuning_w_distilbert.ipynb`: Contains logic for loading DistilBERT model trained with `01.2-Training_DistilBERT.ipynb` & using it to augment our VADER-scored reviews.
