@@ -54,17 +54,17 @@ class LSTM(nn.Module):
 
 # unk_index = vocab["<unk>"]
 # pad_index = vocab["<pad>"]
-model = LSTM(
-    vocab_size = 8910,
-    embedding_dim = 300,
-    hidden_dim = 300,
-    output_dim = 2,
-    n_layers = 2,
-    bidirectional = True,
-    dropout_rate = 0.5,
-    pad_index = 1,
-)
-model.load_state_dict(torch.load("models/baseline/lstm.pt", map_location=torch.device('cpu')))
+# model = LSTM(
+#     vocab_size = 8910,
+#     embedding_dim = 300,
+#     hidden_dim = 300,
+#     output_dim = 2,
+#     n_layers = 2,
+#     bidirectional = True,
+#     dropout_rate = 0.5,
+#     pad_index = 1,
+# )
+# model.load_state_dict(torch.load("models/baseline/lstm.pt", map_location=torch.device('cpu')))
 
 def predict_sentiment(text, model, tokenizer, vocab, device):
     tokens = tokenizer(text)
