@@ -143,9 +143,9 @@ _______
    This would automatically open a new Browser window/tab with the dashboard deployed on `localhost`.
 
 ### Using the Dashboard
-Upon running the project initially, the Dashboard loads up the pre-scraped reviews of the movie ["The Equalizer"](https://www.imdb.com/title/tt0455944/) so that the sample visualizations are already visible. The users can start real-time scraping and analnysis of any new movie by following these steps:
+Upon running the project initially, the Dashboard loads up the pre-scraped reviews of the movie ["The Equalizer"](https://www.imdb.com/title/tt0455944/) so that the sample visualizations are already visible. The users can start real-time scraping and analysis of any new movie by following these steps:
 
-1. Type out the movie/TV-Series ID as per [IMDb](https://www.imdb.com/) in the Text boc (under "IMDb ID") at the top and press the `Scrape Data` button.
+1. Type out the movie/TV-Series ID as per [IMDb](https://www.imdb.com/) in the Text box (under "IMDb ID") at the top and press the `Scrape Data` button.
 2. A live progess Bar will apprear indicating the status of operations (`Scraping`,`Scoring` etc.)
 3. Once the Reviews are loaded & analysis is done, the Dashboard will update the existing visualization as per the new reviews which have been scored by our model.
 _______
