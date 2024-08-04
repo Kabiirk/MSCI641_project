@@ -40,9 +40,6 @@ Experiments show that our model effectively
 captures and analyzes sentiment from large-scale data, demonstrating the potential of
 sentiment analysis to improve decision-making
 and tailor content to audience expectations.
-_______
-
-## Getting Started
 
 ### Project Structure
 ```
@@ -118,6 +115,10 @@ Project Root/
 3. `reviews/01-cleaned_scored/VADER_DISTILBERT_FINAL/`: Contains the Reivews which were scored by DistilBERT and the final finetuned (VADER + DistilBERT) scores for the review. This was the final training data used to train the model.
 4. `models/`: Contans the Initial & the Final LSTM models used in this project. (The DistilBERT model couldn't be included in this repo since it was too large to be pushed here)
 > **NOTE:** Though not required to run the project, the DistilBERT model can be regenerated at user's end by executing the `01.2-Training_DistilBERT.ipynb`.
+
+_______
+
+## Getting Started
 
 ### How To Run the Project locally
 1. Clone the repository
