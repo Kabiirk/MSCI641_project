@@ -61,10 +61,6 @@ Project Root/
 │           lstm_final.pt
 │           vocab.pth
 │
-├───project_reports
-│       00-Project Proposal.pdf
-│       01-Project Milestone.pdf
-│
 └───reviews
     ├───00-scraped
     │       reviews_tt0111161.csv
