@@ -7,12 +7,6 @@ SENTIMENT ANALYSIS OF IMBD Movie REVIEWS USING LTSM (Long Short-Term Memory) Neu
    - **WatIAM:** k7krishn
    - **Student Number:** 21106092
 
-2. **MEMBER 2**
-   - **Name:** Akshat Baheti
-   - **Email:** abaheti@uwaterloo.ca
-   - **WatIAM:** abaheti
-   - **Student Number:** 21100660
-
 ## About the Project
 In the digital age, online reviews significantly
 influence decisions about movies and TV
@@ -26,7 +20,7 @@ LSTM model to handle the sequential nature of
 textual data, accurately identifying consensus
 and overall sentiment across reviews.
 
-Our approach helps the entertainment industry & users
+This approach helps the entertainment industry & users
 understand **audience preferences**, guiding
 **marketing strategies**, **recommendation systems**,
 and content creation. Consumers benefit from
@@ -36,7 +30,7 @@ make better choices.
 The technology can also
 be extended to other areas such as **product
 reviews** and **social media monitoring**.
-Experiments show that our model effectively
+Experiments show that the model effectively
 captures and analyzes sentiment from large-scale data, demonstrating the potential of
 sentiment analysis to improve decision-making
 and tailor content to audience expectations.
@@ -107,7 +101,7 @@ Project Root/
 4. `04-dashboard.py`: Contains main Logic for dashboard webpage displayed.
 
 #### Augmenting data wth scores from VADER and DistilBERT:
-1. `03-sentiment_finetuning_w_distilbert.ipynb`: Contains logic for loading DistilBERT model trained with `01.2-Training_DistilBERT.ipynb` & using it to augment our VADER-scored reviews.
+1. `03-sentiment_finetuning_w_distilbert.ipynb`: Contains logic for loading DistilBERT model trained with `01.2-Training_DistilBERT.ipynb` & using it to augment the VADER-scored reviews.
 
 #### Data Folders
 1. `reviews/00-scraped/`: Contains the initial reviews scraped by Web Crawler.
@@ -147,7 +141,7 @@ Upon running the project initially, the Dashboard loads up the pre-scraped revie
 
 1. Type out the movie/TV-Series ID as per [IMDb](https://www.imdb.com/) in the Text box (under "IMDb ID") at the top and press the `Scrape Data` button.
 2. A live progess Bar will apprear indicating the status of operations (`Scraping`,`Scoring` etc.)
-3. Once the Reviews are loaded & analysis is done, the Dashboard will update the existing visualization as per the new reviews which have been scored by our model.
+3. Once the Reviews are loaded & analysis is done, the Dashboard will update the existing visualization as per the new reviews which have been scored by the model.
 _______
 
 ### Demo Video
